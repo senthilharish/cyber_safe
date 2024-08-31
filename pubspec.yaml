@@ -41,8 +41,8 @@ dev_dependencies:
     sdk: flutter
   http: ^1.2.2
   provider: ^6.1.2
-  cupertino_icons: ^1.0.6
-  url_launcher:
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.0
   flutter_launcher_icons: "^0.13.1"
 
 flutter_launcher_icons:
