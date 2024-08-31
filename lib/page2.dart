@@ -19,11 +19,11 @@ class _Page2State extends State<Page2> {
       child: SingleChildScrollView(
         child: Column(
             children: [
-              station_location(150,"Nagercoil Women Police Station","https://maps.app.goo.gl/UpiYfJT56UY7c8978","Nagercoil","004652-275949"),
+              station_location(200,"Nagercoil Women Police Station","https://maps.app.goo.gl/UpiYfJT56UY7c8978","Nagercoil","004652-275949"),
               SizedBox(height: 25,),
               station_location(200,"  Kanyakumari Women Police  Station","https://maps.app.goo.gl/jgkgaiKYTfqjijKT6","Kanyakumari town", "04652-247725"),
               SizedBox(height: 25,),
-              station_location(150,"kuzhithurai Women Police Station","https://maps.app.goo.gl/tkWHwPgNnVK1n8RE6","kuzhithurai","04651271128"),
+              station_location(200,"kuzhithurai Women Police Station","https://maps.app.goo.gl/tkWHwPgNnVK1n8RE6","kuzhithurai","04651271128"),
               SizedBox(height: 10,),
               station_location(200,"Marthandam Women Police Station","https://maps.app.goo.gl/dy7JosmfDhKsCb4JA","Marthandam","04651228500"),
               SizedBox(height: 10,),
