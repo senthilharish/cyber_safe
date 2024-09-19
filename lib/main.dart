@@ -5,8 +5,6 @@ import 'page1.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'chatbot.dart';
 
-
-
 void main() {
 Page1 page1= new Page1();
 Page2 page2= new Page2();
@@ -87,6 +85,53 @@ class _MyAppState extends State<MyApp> {
                         },
                         //color: const Color.fromARGB(255, 222, 156, 178),
                         child: Text("Click Here"),
+                      ),
+                    SizedBox(height: 20,),
+                    ],
+                  ),
+                    
+                ),
+                SizedBox(height: 15,),
+                //virus checker;
+                Container(
+                  height: 490,
+                  width: 330,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(25),
+                    color:  const Color.fromARGB(255, 209, 207, 207),
+                  ),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                        Container(
+                        height: 200,
+                        width: 200,
+                      
+                        decoration: BoxDecoration(
+                          color: const Color.fromARGB(255, 253, 251, 252),
+                          borderRadius: BorderRadius.circular(20),image: DecorationImage(image: NetworkImage("https://img.icons8.com/?size=100&id=9512&format=png&color=000000"),)
+                        ),
+                      ),
+
+                        SizedBox(height: 30),
+                        Text("Virus Checker",textAlign:TextAlign.center,style: TextStyle(fontSize: 30,fontWeight:FontWeight.bold,),),
+                        SizedBox(height: 10),
+                        Text("check if the URL or files you provide have any viruses",textAlign:TextAlign.center,style:TextStyle(fontSize:20,),),
+
+                        SizedBox(height: 10),
+                      ElevatedButton(
+                        
+                        onPressed: () async {
+                          Uri url = Uri.parse(
+                              "https://cyber-safe-web.vercel.app/Features/VirusCheck/feature.html");
+                          if (await canLaunchUrl(url)) {
+                            launchUrl(url);
+                          } else {
+                            throw 'Could not launch $url';
+                          }
+                        },
+                        //color: const Color.fromARGB(255, 222, 156, 178),
+                        child: Text("Check Now"),
                       ),
                     SizedBox(height: 20,),
                     ],
