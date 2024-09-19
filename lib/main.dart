@@ -263,7 +263,7 @@ class _MyAppState extends State<MyApp> {
                         
                         onPressed: () async {
                           Uri url = Uri.parse(
-                              "https://cyber-safe-web.vercel.app/Features/VirusCheck/feature.html");
+                              "https://cyber-safe-web.vercel.app/Features/Password%20Strength%20checker/features.html");
                           if (await canLaunchUrl(url)) {
                             launchUrl(url);
                           } else {
