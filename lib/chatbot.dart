@@ -45,7 +45,9 @@ class _ChatScreenState extends State<ChatScreen> {
     // Define some basic cyber safety responses
     final responses = {
     'hi':'hi how can i help you :)',
+
     'What are some basic online safety tips for women?':'Use strong, unique passwords for different accounts. Enable two-factor authentication (2FA) on all accounts. Be cautious of sharing personal information online, especially on social media. Regularly update your software and devices to protect against vulnerabilities. Avoid clicking on suspicious links or downloading attachments from unknown sources.',
+
     "How can I protect my privacy on social media?": 
     "Set your profiles to private to limit who can see your posts and information. Be selective with friend or follower requests, accepting only those you know. Review and adjust your privacy settings regularly. Avoid sharing your location in real-time or posting personal details like your home address.",
     
@@ -67,6 +69,65 @@ class _ChatScreenState extends State<ChatScreen> {
     "How can I ensure my children are safe online?": 
     "Educate your children about the dangers of sharing personal information online. Use parental control software to monitor and limit their internet usage. Encourage open communication so they feel comfortable reporting any suspicious or uncomfortable situations. Set rules for safe internet use and explain why they are important.",
     
+    'Why is cyber safety important for women?': 'To protect personal information and avoid online threats like harassment and identity theft.',
+
+  'How can women protect personal information online?': 'Use strong passwords, avoid sharing sensitive details, and enable two-factor authentication.',
+
+  'How can women avoid online harassment or cyberstalking?': 'Keep social media accounts private, block suspicious users, and report harassment.',
+
+  'What should women do if they get inappropriate messages?': 'Do not reply, take screenshots, block the sender, and report them.',
+
+  'How can women protect social media accounts?': 'Use strong passwords, enable two-factor authentication, and avoid suspicious links.',
+
+  'How to spot phishing emails or messages?': 'Look for generic greetings, urgent requests for money, and check the sender’s email.',
+
+  'Why is updating software important?': 'It protects your devices from security threats.',
+
+  'How can women shop safely online?': 'Buy from trusted websites, check for "https", and don’t share unnecessary details.',
+
+  'How to manage passwords safely?': 'Use a password manager and avoid writing them down.',
+
+  'What to do if an account is hacked?': 'Change the password, check account activity, and report it.',
+  'What is cyber safety?': 'Protecting yourself and your information online.',
+
+  'How can I make my password strong?': 'Use a mix of letters, numbers, and symbols.',
+
+  'What should I do if someone harasses me online?': 'Block them and report it to the platform.',
+
+  'How can I keep my social media safe?': 'Set your account to private and use strong passwords.',
+
+  'what is phishing?': 'Tricking people into giving personal information online.',
+
+  'Why should I update my apps and phone?': 'To keep your device safe from hackers.',
+
+  'How can I shop safely online?': 'Only buy from trusted websites with "https".',
+
+  'What should I do if my account gets hacked?': 'Change your password and report it.',
+
+  'How can I avoid scams online?': 'Don’t click on suspicious links or share personal info.',
+
+  'Why is two-factor authentication important?': 'It adds extra protection to your accounts.',
+
+  'What is an online scam?': 'A trick to steal your money or personal information online.',
+
+  'How can I spot a scam website?': 'Look for bad grammar, no "https", and deals that are too good to be true.',
+
+  'What should I do if I think I’m being scammed?': 'Stop all communication and report it to the platform or authorities.',
+
+  'How can I avoid getting scammed in emails?': 'Don’t click on links from unknown senders or share personal info.',
+
+  'What is a lottery scam?': 'It’s when someone tells you that you’ve won money but asks for a payment to claim the prize.',
+
+  'How can I tell if a message is a scam?': 'It might ask for money or personal info, or offer unrealistic rewards.',
+
+  'What is a job scam?': 'Fake job offers that ask for personal information or money upfront.',
+
+  'How do romance scams work?': 'Someone pretends to be romantically interested to gain your trust and steal your money.',
+
+  'What is a tech support scam?': 'Scammers pretend to be tech support to steal your money or personal info.',
+
+  'How can I stay safe from social media scams?': 'Don’t trust messages from strangers offering money, prizes, or help.',
+
     "What is cyberstalking and how can I protect myself?": 
     "Cyberstalking involves the use of technology to harass, intimidate, or track someone online. Protect yourself by securing your online accounts, being cautious about what you share, and using privacy settings. If you suspect you are being cyberstalked, document all incidents, block the stalker, and report it to the authorities.",
     
