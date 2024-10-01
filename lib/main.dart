@@ -78,7 +78,8 @@ class _MyAppState extends State<MyApp> {
                           Uri url = Uri.parse(
                               "https://cyber-safe-web.vercel.app/Features/DataBreach/features.html");
                           if (await canLaunchUrl(url)) {
-                            launchUrl(url);
+                            launchUrl(url,mode:LaunchMode.inAppWebView);
+                            
                           } else {
                             throw 'Could not launch $url';
                           }
@@ -125,7 +126,7 @@ class _MyAppState extends State<MyApp> {
                           Uri url = Uri.parse(
                               "https://cyber-safe-web.vercel.app/Features/VirusCheck/feature.html");
                           if (await canLaunchUrl(url)) {
-                            launchUrl(url);
+                            launchUrl(url,mode:LaunchMode.inAppWebView);
                           } else {
                             throw 'Could not launch $url';
                           }
@@ -265,7 +266,7 @@ class _MyAppState extends State<MyApp> {
                           Uri url = Uri.parse(
                               "https://cyber-safe-web.vercel.app/Features/Password%20Strength%20checker/features.html");
                           if (await canLaunchUrl(url)) {
-                            launchUrl(url);
+                            launchUrl(url,mode:LaunchMode.inAppWebView);
                           } else {
                             throw 'Could not launch $url';
                           }
